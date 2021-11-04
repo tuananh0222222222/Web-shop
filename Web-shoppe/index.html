@@ -50,7 +50,7 @@
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item--link"> 
-                                <i class="header__navbar-icon fas fa-bell"></i>
+                                <i class="header__navbar-icon far fa-bell"></i>
                                 Thông báo
                          
                             </a>
@@ -123,24 +123,59 @@
                                
                             </a>
                         </li>
-                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí</li>
-                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
-                        
-                       
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./asset/img/sp1.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Khuat Tuan Anh</span>
+                            
+                        </li>
+                        <ul class="header__navbar-user-menu">
+                            <li class="header__navbar-user-item">
+                                <a href="">Tài khoản của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Địa chỉ</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đơn mua</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đăng xuất</a>
+                            </li>
+                           
+                        </ul>
+    
                     </ul>
                 </nav>
-
+                <!-- header search -->
                 <div class="header-width-search">
-
                     <div class="header__logo">
-                    
-                         <span class="header__logo-name">OPM</span>
+                        <a href="" class="header__logo-link">
+                            <span class="header__logo-name">OPM</span>
+                        </a> 
                     </div>
 
                     <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm"> 
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">kem duong da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">kem duong da</a>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                            <!-- end search history -->
+                        </div>
                         
-                        
-                          <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm"> 
                         <div class="header__search-select">
                             <span class="header__search-select-label">Trong shop</span>
                             <i class="header__search-select-icon fas fa-angle-down"></i>
@@ -153,13 +188,12 @@
                                 <li class="header__search-option-item">
                                     <span>Ngoài shop</span>
                                     <i class="fa fa-check"></i>
-                                 </li>
-                                 
+                                 </li>       
                             </ul>
                         </div>
-                        <button class="header__search-btn">
-                            <i class="header__search-btn-icon fa fa-search"></i>
-                        </button>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fa fa-search"></i>
+                            </button>
                     </div>
                     <!-- Cart -->
                     <div class="header__cart">
@@ -246,6 +280,35 @@
         </header>
         
         <div class="container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2 ">
+                        <!-- category -->
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="fa fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                         <!--end category -->
+    
+                    </div>
+                    <div class="grid__column-10">
+                        
+                    </div>
+            </div>
+         </div> 
 
         </div>
 
