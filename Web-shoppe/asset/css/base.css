@@ -9,6 +9,8 @@
     /* --header-height:120px;
     --navbar-height :34px;
     --header-width-search-height:calc (var(--header-height) - var(--navbar-height)); */
+    --star-gold-color:#ffce3e;
+
 }
  
  * {
@@ -45,12 +47,15 @@
 }
 
 .grid__column-2-4 {
-   
+    display: inline-flex;
+    margin-right: 30px;
+    padding-left: 5px;
     padding-right: 5px;
     width: 16.6667%;
 }
 
 .grid__column-10 {
+   
     padding-left: 5px;
     padding-right: 5px;
     width: 83.3334%;
@@ -182,6 +187,7 @@
     padding: 10px 16px;
     list-style: none;
     display: none;
+    z-index: 1;
 }
 
 .select-input__link  {
